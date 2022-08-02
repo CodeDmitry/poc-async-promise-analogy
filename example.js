@@ -20,7 +20,7 @@ async function C1() {
     console.log('async results: ', a, b, c);
 })();
 
-// | Unsugared Promise example section.
+// | Promise example section.
 
 function A2() {
     console.log('A2 returning');
