@@ -24,15 +24,15 @@ async function C1() {
 
 function A2() {
     console.log('A2 returning');
-    return new Promise(a => a(3));
+    return new Promise(accept => accept(3));
 }
 function B2() {
     console.log('B2 returning');
-    return new Promise(a => a(4));    
+    return new Promise(accept => accept(4));    
 }
 function C2() {
     console.log('C2 returning');
-    return new Promise(a => a(5));
+    return new Promise(accept => accept(5));
 }
 
 (() => {
